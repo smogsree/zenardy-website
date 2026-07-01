@@ -1,9 +1,9 @@
 import { useState, type FormEvent } from 'react'
 import { motion, useSpring } from 'motion/react'
-import { MapPin, Phone } from 'lucide-react'
+import { ExternalLink, MapPin, Phone } from 'lucide-react'
 import { SectionEyebrow } from './primitives/SectionEyebrow'
 import { AppleButton } from './primitives/AppleButton'
-import { offices } from '../data/content'
+import { offices } from '../data/offices'
 
 function MagneticButton() {
   const x = useSpring(0, { stiffness: 300, damping: 20 })
@@ -117,18 +117,36 @@ export function ContactSection() {
               transition={{ delay: i * 0.1, duration: 0.5 }}
               className="liquid-glass rounded-xl p-5"
             >
-              <div className="h-24 rounded-lg bg-gradient-to-br from-brand/20 to-brand-red-dim/30 mb-4 flex items-center justify-center">
-                <MapPin className="w-6 h-6 text-white/40" />
-              </div>
+              {office.mapsEmbed ? (
+                <div className="h-44 sm:h-48 rounded-lg overflow-hidden mb-4 border border-white/10">
+                  <iframe
+                    src={office.mapsEmbed}
+                    title={`${office.name} map`}
+                    className="w-full h-full"
+                    loading="lazy"
+                    allowFullScreen
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
+                </div>
+              ) : null}
               <h3 className="text-sm font-semibold text-white">{office.name}</h3>
-              <p className="text-xs text-white/50 mt-1 flex items-center gap-1">
-                <MapPin className="w-3 h-3" />
+              <p className="text-xs text-white/50 mt-2 flex items-start gap-1.5 leading-relaxed">
+                <MapPin className="w-3.5 h-3.5 shrink-0 mt-0.5" />
                 {office.address}
               </p>
-              <p className="text-xs text-white/50 mt-1 flex items-center gap-1">
-                <Phone className="w-3 h-3" />
+              <p className="text-xs text-white/50 mt-2 flex items-center gap-1.5">
+                <Phone className="w-3.5 h-3.5 shrink-0" />
                 {office.phone}
               </p>
+              <a
+                href={office.mapsLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-brand hover:text-white transition-colors"
+              >
+                Open in Google Maps
+                <ExternalLink className="w-3 h-3" />
+              </a>
             </motion.div>
           ))}
         </div>

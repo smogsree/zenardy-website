@@ -1,11 +1,14 @@
 import { motion } from 'motion/react'
 import { Link } from 'react-router-dom'
-import { ArrowLeft, Play } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
 import { SectionEyebrow } from './primitives/SectionEyebrow'
 import { AppleButton } from './primitives/AppleButton'
 import type { SolutionDetail } from '../data/solutionDetails'
+import { youtubeEmbedUrl } from '../lib/youtubeEmbed'
 
 export function SolutionDetailPage({ solution }: { solution: SolutionDetail }) {
+  const embedUrl = youtubeEmbedUrl(solution.demoVideoUrl)
+
   return (
     <div className="relative z-10">
       <section className="w-full px-4 md:px-10 pt-12 pb-8">
@@ -71,19 +74,28 @@ export function SolutionDetailPage({ solution }: { solution: SolutionDetail }) {
       </section>
 
       <section className="w-full px-4 md:px-10 py-12">
+        <SectionEyebrow label="Demo" />
+        <h2 className="mt-5 text-2xl md:text-3xl font-semibold tracking-tight mb-4">Demo Video</h2>
+        <p className="text-sm text-white/60 leading-relaxed mb-6 max-w-2xl">
+          {solution.demoDescription}
+        </p>
         <motion.div
-          initial={{ opacity: 0, scale: 0.98 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true, amount: 0.4 }}
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.5 }}
-          className="liquid-glass rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-center gap-6"
+          className="liquid-glass rounded-2xl p-3 md:p-4"
         >
-          <div className="w-14 h-14 rounded-full bg-brand-red/20 flex items-center justify-center shrink-0">
-            <Play className="w-6 h-6 text-brand-red ml-0.5" />
-          </div>
-          <div>
-            <p className="text-xs uppercase tracking-wider text-brand mb-2">Demo Video</p>
-            <p className="text-sm text-white/65 leading-relaxed">{solution.demoDescription}</p>
+          <div className="relative w-full aspect-video rounded-xl overflow-hidden bg-black">
+            <iframe
+              src={embedUrl}
+              title={`${solution.title} demo video`}
+              className="absolute inset-0 w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
           </div>
         </motion.div>
       </section>

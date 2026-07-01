@@ -6,7 +6,7 @@ export function PartnerLogo({ name, logo }: { name: string; logo: string }) {
       src={publicAsset(logo)}
       alt={name}
       title={name}
-      className="h-8 md:h-9 w-auto object-contain opacity-45 hover:opacity-75 transition-opacity duration-300 shrink-0"
+      className="h-12 md:h-14 lg:h-16 w-auto max-w-[180px] md:max-w-[220px] object-contain opacity-55 hover:opacity-85 transition-opacity duration-300 shrink-0"
       draggable={false}
     />
   )

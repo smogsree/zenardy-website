@@ -17,7 +17,9 @@
   <body>
     <script>
       sessionStorage.setItem('gh-spa-redirect', location.pathname + location.search + location.hash)
-      location.replace(document.querySelector('base')?.href || '/')
+      var parts = location.pathname.split('/').filter(Boolean)
+      var base = parts.length > 0 ? '/' + parts[0] + '/' : '/'
+      location.replace(base)
     </script>
   </body>
 </html>

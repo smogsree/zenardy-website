@@ -3,36 +3,31 @@ import { motion } from 'motion/react'
 import { Link2 } from 'lucide-react'
 import { SectionEyebrow } from './primitives/SectionEyebrow'
 import { FadeInUp } from './primitives/FadeInUp'
+import { RevealGroup } from './primitives/RevealGroup'
+import { RevealItem } from './primitives/RevealItem'
 import { TeamAvatar } from './TeamAvatar'
 import { team } from '../data/content'
 import { teamPhotos } from '../data/teamPhotos'
+import { slideFromLeft, slideFromRight, viewport } from '../lib/motion'
+import { useReducedMotion } from '../hooks/useReducedMotion'
+import { reducedVariants } from '../lib/motion'
 
 function PersonCard({
   name,
   title,
   image,
-  pulse = false,
+  highlight = false,
 }: {
   name: string
   title: string
   image?: string
-  pulse?: boolean
+  highlight?: boolean
 }) {
   return (
-    <motion.div
-      className="liquid-glass rounded-2xl p-6 w-72 text-center"
-      animate={
-        pulse
-          ? {
-              boxShadow: [
-                '0 0 0 0 rgba(230, 57, 70, 0)',
-                '0 0 24px 4px rgba(230, 57, 70, 0.4)',
-                '0 0 0 0 rgba(230, 57, 70, 0)',
-              ],
-            }
-          : undefined
-      }
-      transition={{ duration: 0.6 }}
+    <div
+      className={`liquid-glass rounded-2xl p-6 w-72 text-center transition-shadow duration-700 ${
+        highlight ? 'shadow-[0_0_32px_rgba(230,57,70,0.15)]' : ''
+      }`}
     >
       <div className="mb-4 flex justify-center">
         <TeamAvatar name={name} image={image} size="xl" />
@@ -46,7 +41,7 @@ function PersonCard({
       >
         <Link2 className="w-4 h-4" />
       </a>
-    </motion.div>
+    </div>
   )
 }
 
@@ -61,18 +56,13 @@ function TeamGrid({
 
   if (useCenteredFlex) {
     return (
-      <div className="flex flex-wrap justify-center gap-6">
+      <RevealGroup className="flex flex-wrap justify-center gap-6">
         {members.map((m, i) => (
-          <div key={m.name} className="w-full max-w-xs sm:w-72">
-            <FlipCard
-              name={m.name}
-              title={m.title}
-              image={teamPhotos[m.name]}
-              index={i}
-            />
-          </div>
+          <RevealItem key={m.name} index={i} className="w-full max-w-xs sm:w-72">
+            <TeamMemberCard name={m.name} title={m.title} image={teamPhotos[m.name]} />
+          </RevealItem>
         ))}
-      </div>
+      </RevealGroup>
     )
   }
 
@@ -84,41 +74,27 @@ function TeamGrid({
         : 'grid-cols-1 md:grid-cols-3'
 
   return (
-    <div className={`grid ${gridCols} gap-6`}>
+    <RevealGroup className={`grid ${gridCols} gap-6`}>
       {members.map((m, i) => (
-        <FlipCard
-          key={m.name}
-          name={m.name}
-          title={m.title}
-          image={teamPhotos[m.name]}
-          index={i}
-        />
+        <RevealItem key={m.name} index={i}>
+          <TeamMemberCard name={m.name} title={m.title} image={teamPhotos[m.name]} />
+        </RevealItem>
       ))}
-    </div>
+    </RevealGroup>
   )
 }
 
-function FlipCard({
+function TeamMemberCard({
   name,
   title,
   image,
-  index,
 }: {
   name: string
   title: string
   image?: string
-  index: number
 }) {
   return (
-    <motion.div
-      initial={{ rotateY: -90, opacity: 0 }}
-      whileInView={{ rotateY: 0, opacity: 1 }}
-      viewport={{ once: true, amount: 0.3 }}
-      transition={{ delay: index * 0.1, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-      whileHover={{ y: -6, transition: { duration: 0.25 } }}
-      style={{ transformPerspective: 800 }}
-      className="liquid-glass rounded-2xl p-6 text-center flex flex-col items-center"
-    >
+    <div className="liquid-glass rounded-2xl p-6 text-center flex flex-col items-center reveal-card h-full">
       <div className="mb-3 flex justify-center">
         <TeamAvatar name={name} image={image} size="md" />
       </div>
@@ -127,12 +103,13 @@ function FlipCard({
       <a href="#" className="inline-flex mt-2 text-white/40 hover:text-brand" aria-label={`${name} LinkedIn`}>
         <Link2 className="w-3.5 h-3.5" />
       </a>
-    </motion.div>
+    </div>
   )
 }
 
 export function LeadershipTeam() {
   const [handshake, setHandshake] = useState(false)
+  const reduced = useReducedMotion()
 
   const operations = team.filter((m) => m.group === 'operations')
   const capability = team.filter((m) => m.group === 'capability')
@@ -160,56 +137,62 @@ export function LeadershipTeam() {
 
         <motion.div
           className="relative z-10"
-          initial={{ opacity: 0, x: -80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewport}
+          variants={reduced ? reducedVariants : slideFromLeft}
           onAnimationComplete={() => setHandshake(true)}
         >
           <PersonCard
             name="Vijay Avadhan"
             title="CEO"
             image={teamPhotos['Vijay Avadhan']}
-            pulse={handshake}
+            highlight={handshake}
           />
         </motion.div>
 
         <motion.div
           className="relative z-10"
-          initial={{ opacity: 0, x: 80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewport}
+          variants={reduced ? reducedVariants : slideFromRight}
         >
           <PersonCard
             name="Venky Gurunathan"
             title="COO"
             image={teamPhotos['Venky Gurunathan']}
-            pulse={handshake}
+            highlight={handshake}
           />
         </motion.div>
       </div>
 
-      <FadeInUp className="mb-12" delay={0.05}>
-        <h3 className="text-sm font-medium text-white/50 uppercase tracking-wider mb-4">
-          Leadership
-        </h3>
+      <div className="mb-12">
+        <FadeInUp delay={0.05}>
+          <h3 className="text-sm font-medium text-white/50 uppercase tracking-wider mb-4">
+            Leadership
+          </h3>
+        </FadeInUp>
         <TeamGrid members={others} columns={4} />
-      </FadeInUp>
+      </div>
 
-      <FadeInUp className="mb-12" delay={0.08}>
-        <h3 className="text-sm font-medium text-white/50 uppercase tracking-wider mb-4">
-          Operations
-        </h3>
+      <div className="mb-12">
+        <FadeInUp delay={0.05}>
+          <h3 className="text-sm font-medium text-white/50 uppercase tracking-wider mb-4">
+            Operations
+          </h3>
+        </FadeInUp>
         <TeamGrid members={operations} columns={3} />
-      </FadeInUp>
+      </div>
 
-      <FadeInUp delay={0.1}>
-        <h3 className="text-sm font-medium text-white/50 uppercase tracking-wider mb-4">
-          Capability
-        </h3>
+      <div>
+        <FadeInUp delay={0.05}>
+          <h3 className="text-sm font-medium text-white/50 uppercase tracking-wider mb-4">
+            Capability
+          </h3>
+        </FadeInUp>
         <TeamGrid members={capability} columns={3} />
-      </FadeInUp>
+      </div>
     </section>
   )
 }

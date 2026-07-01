@@ -30,10 +30,8 @@ export function AwardsSection() {
               src={publicAsset(award.image)}
               alt={award.name}
               title={award.name}
-              className="h-24 md:h-32 lg:h-36 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity shrink-0"
+              className="h-24 md:h-32 lg:h-36 w-auto object-contain opacity-80 hover:opacity-100 transition-all duration-500 hover:scale-[1.04] shrink-0"
               draggable={false}
-              whileHover={{ scale: 1.06 }}
-              transition={{ duration: 0.25 }}
             />
           ))}
         </div>

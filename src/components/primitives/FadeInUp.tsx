@@ -1,20 +1,33 @@
 import type { ReactNode } from 'react'
 import { motion } from 'motion/react'
+import { useReducedMotion } from '../../hooks/useReducedMotion'
+import { ease, reducedVariants, revealVariants, viewport } from '../../lib/motion'
 
 interface FadeInUpProps {
   children: ReactNode
   className?: string
   delay?: number
-  y?: number
 }
 
-export function FadeInUp({ children, className = '', delay = 0, y = 20 }: FadeInUpProps) {
+export function FadeInUp({ children, className = '', delay = 0 }: FadeInUpProps) {
+  const reduced = useReducedMotion()
+
   return (
     <motion.div
-      initial={{ opacity: 0, y }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.15 }}
-      transition={{ duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] }}
+      initial="hidden"
+      whileInView="visible"
+      viewport={viewport}
+      variants={
+        reduced
+          ? reducedVariants
+          : {
+              hidden: revealVariants.hidden,
+              visible: {
+                ...revealVariants.visible,
+                transition: { duration: 0.6, delay, ease: ease.smooth },
+              },
+            }
+      }
       className={className}
     >
       {children}

@@ -5,6 +5,7 @@ export interface SolutionDetail {
   benefits: { title: string; description: string }[]
   features: { title: string; description: string }[]
   demoDescription: string
+  demoVideoUrl: string
   faqs: { question: string; answer: string }[]
   ctaHeadline: string
 }
@@ -39,6 +40,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     demoDescription:
       'Watch how Zen Catch Weight Solution addresses real-world challenges in industries such as food & beverage and metal industry.',
+    demoVideoUrl: 'https://www.youtube.com/watch?v=2yke4jI2Hug',
     faqs: [
       {
         question: 'Who can benefit most from Zen Catch Weight Solution?',
@@ -84,6 +86,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     demoDescription:
       'Watch how Zen AI Auto Fulfillment optimizes intelligent warehouse selection in NetSuite.',
+    demoVideoUrl: 'https://www.youtube.com/watch?v=NrvRS0JrZIE',
     faqs: [
       {
         question: 'Who can benefit most from Zen AI Auto Fulfillment?',
@@ -128,6 +131,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     demoDescription:
       'Watch how Zen Advanced Budgeting enables dynamic financial planning and cost control.',
+    demoVideoUrl: 'https://www.youtube.com/watch?v=6vDSb8k7yCg',
     faqs: [
       {
         question: 'Who can benefit most from Zen Advanced Budgeting Solution?',
@@ -166,6 +170,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     demoDescription:
       'Watch how Zen Mobile Order Printing enables fast, on-the-go document generation from mobile devices.',
+    demoVideoUrl: 'https://www.youtube.com/watch?v=XQB3aPi7kCk',
     faqs: [
       {
         question: 'Is it compatible with Android/iOS tablets?',
@@ -209,6 +214,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     demoDescription:
       'See how Zen Advanced Allocations simplifies cost distribution inside NetSuite.',
+    demoVideoUrl: 'https://www.youtube.com/watch?v=XQB3aPi7kCk',
     faqs: [
       {
         question: 'Who should use Zen Advanced Allocations?',

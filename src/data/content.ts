@@ -287,20 +287,4 @@ export const blogPosts = [
   },
 ]
 
-export const offices = [
-  {
-    name: 'Tampa LLC',
-    address: 'Tampa, Florida, USA',
-    phone: '+1 (813) 555-0142',
-  },
-  {
-    name: 'Chennai',
-    address: 'Chennai, Tamil Nadu, India',
-    phone: '+91 44 5555 0180',
-  },
-  {
-    name: 'Hyderabad',
-    address: 'Hyderabad, Telangana, India',
-    phone: '+91 40 5555 0195',
-  },
-]
+export { offices } from './offices'

@@ -1,18 +1,50 @@
 import { motion } from 'motion/react'
 import { SectionEyebrow } from './primitives/SectionEyebrow'
+import { FadeInUp } from './primitives/FadeInUp'
+import { RevealGroup } from './primitives/RevealGroup'
+import { RevealItem } from './primitives/RevealItem'
 import { cultureGallery, cultureHero, cultureOffices, culturePillars } from '../data/cultureGallery'
 import { publicAsset } from '../lib/publicAsset'
+import { slideFromLeft, slideFromRight, viewport } from '../lib/motion'
+import { useReducedMotion } from '../hooks/useReducedMotion'
+import { reducedVariants } from '../lib/motion'
+
+function CultureImage({
+  src,
+  alt,
+  objectPosition = 'center 25%',
+  className = '',
+}: {
+  src: string
+  alt: string
+  objectPosition?: string
+  className?: string
+}) {
+  return (
+    <div className={`relative overflow-hidden bg-[#0a0f18] ${className}`}>
+      <img
+        src={publicAsset(src)}
+        alt={alt}
+        className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+        style={{ objectPosition }}
+        loading="lazy"
+      />
+    </div>
+  )
+}
 
 export function ZenardyCultureSection() {
+  const reduced = useReducedMotion()
+
   return (
     <>
       <section id="inside-zenardy" className="relative z-10 w-full px-4 md:px-10 py-20">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.7 }}
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewport}
+            variants={reduced ? reducedVariants : slideFromLeft}
           >
             <SectionEyebrow label="Inside Zenardy" tag="Our Story" />
             <h2 className="mt-5 text-3xl md:text-5xl font-semibold tracking-tight leading-[1.02]">
@@ -26,88 +58,77 @@ export function ZenardyCultureSection() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
-            className="liquid-glass rounded-2xl overflow-hidden"
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewport}
+            variants={reduced ? reducedVariants : slideFromRight}
+            className="liquid-glass rounded-2xl overflow-hidden reveal-card group"
           >
-            <img
-              src={publicAsset(cultureHero.image)}
+            <CultureImage
+              src={cultureHero.image}
               alt="Zenardy team outing"
-              className="w-full h-64 md:h-80 object-cover"
+              objectPosition="center 35%"
+              className="aspect-[5/4] md:aspect-[4/3]"
             />
           </motion.div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-4 mt-12">
+        <RevealGroup className="grid md:grid-cols-3 gap-4 mt-12">
           {culturePillars.map((pillar, i) => (
-            <motion.div
-              key={pillar.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ delay: i * 0.08, duration: 0.5 }}
-              className="liquid-glass rounded-xl p-5"
-            >
-              <h3 className="text-sm font-semibold text-white">{pillar.title}</h3>
-              <p className="mt-2 text-sm text-white/55 leading-relaxed">{pillar.description}</p>
-            </motion.div>
-          ))}
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-4 mt-10">
-          {cultureOffices.map((office, i) => (
-            <motion.div
-              key={office.city}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ delay: i * 0.08, duration: 0.5 }}
-              className="liquid-glass rounded-xl overflow-hidden"
-            >
-              <img
-                src={publicAsset(office.image)}
-                alt={office.city}
-                className="w-full h-40 object-cover"
-              />
-              <div className="p-4">
-                <p className="text-sm font-semibold text-white">{office.city}</p>
-                <p className="mt-1 text-xs text-white/50">{office.description}</p>
+            <RevealItem key={pillar.title} index={i}>
+              <div className="liquid-glass rounded-xl p-5 h-full">
+                <h3 className="text-sm font-semibold text-white">{pillar.title}</h3>
+                <p className="mt-2 text-sm text-white/55 leading-relaxed">{pillar.description}</p>
               </div>
-            </motion.div>
+            </RevealItem>
           ))}
-        </div>
+        </RevealGroup>
+
+        <RevealGroup className="grid md:grid-cols-3 gap-4 mt-10">
+          {cultureOffices.map((office, i) => (
+            <RevealItem key={office.city} index={i}>
+              <div className="liquid-glass rounded-xl overflow-hidden h-full group">
+                <CultureImage
+                  src={office.image}
+                  alt={office.city}
+                  objectPosition={office.objectPosition}
+                  className="aspect-[16/10]"
+                />
+                <div className="p-4">
+                  <p className="text-sm font-semibold text-white">{office.city}</p>
+                  <p className="mt-1 text-xs text-white/50">{office.description}</p>
+                </div>
+              </div>
+            </RevealItem>
+          ))}
+        </RevealGroup>
       </section>
 
       <section id="culture" className="relative z-10 w-full px-4 md:px-10 py-20">
-        <SectionEyebrow label="Zenardy Culture" tag="Our Culture" />
-        <h2 className="mt-5 text-3xl md:text-4xl font-semibold tracking-tight mb-10">
-          The Culture We Breathe
-        </h2>
+        <FadeInUp>
+          <SectionEyebrow label="Zenardy Culture" tag="Our Culture" />
+          <h2 className="mt-5 text-3xl md:text-4xl font-semibold tracking-tight mb-10">
+            The Culture We Breathe
+          </h2>
+        </FadeInUp>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <RevealGroup className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {cultureGallery.map((item, i) => (
-            <motion.figure
-              key={`${item.image}-${i}`}
-              initial={{ opacity: 0, scale: 0.97 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ delay: (i % 3) * 0.05, duration: 0.45 }}
-              className="group relative liquid-glass rounded-xl overflow-hidden"
-            >
-              <img
-                src={publicAsset(item.image)}
-                alt={item.caption}
-                className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
-                loading="lazy"
-              />
-              <figcaption className="absolute inset-x-0 bottom-0 p-3 text-xs text-white text-center bg-black/75 translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                {item.caption}
-              </figcaption>
-            </motion.figure>
+            <RevealItem key={`${item.image}-${i}`} alternate index={i}>
+              <figure className="group relative liquid-glass rounded-xl overflow-hidden h-full flex flex-col">
+                <CultureImage
+                  src={item.image}
+                  alt={item.caption}
+                  objectPosition={item.objectPosition ?? 'center 25%'}
+                  className="aspect-[5/4] sm:aspect-[4/3] shrink-0"
+                />
+                <figcaption className="p-4 text-sm text-white/70 leading-snug flex-1">
+                  {item.caption}
+                </figcaption>
+              </figure>
+            </RevealItem>
           ))}
-        </div>
+        </RevealGroup>
       </section>
     </>
   )
