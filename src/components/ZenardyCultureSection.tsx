@@ -1,6 +1,7 @@
 import { motion } from 'motion/react'
 import { SectionEyebrow } from './primitives/SectionEyebrow'
 import { cultureGallery, cultureHero, cultureOffices, culturePillars } from '../data/cultureGallery'
+import { publicAsset } from '../lib/publicAsset'
 
 export function ZenardyCultureSection() {
   return (
@@ -32,7 +33,7 @@ export function ZenardyCultureSection() {
             className="liquid-glass rounded-2xl overflow-hidden"
           >
             <img
-              src={cultureHero.image}
+              src={publicAsset(cultureHero.image)}
               alt="Zenardy team outing"
               className="w-full h-64 md:h-80 object-cover"
             />
@@ -66,7 +67,7 @@ export function ZenardyCultureSection() {
               className="liquid-glass rounded-xl overflow-hidden"
             >
               <img
-                src={office.image}
+                src={publicAsset(office.image)}
                 alt={office.city}
                 className="w-full h-40 object-cover"
               />
@@ -96,7 +97,7 @@ export function ZenardyCultureSection() {
               className="group relative liquid-glass rounded-xl overflow-hidden"
             >
               <img
-                src={item.image}
+                src={publicAsset(item.image)}
                 alt={item.caption}
                 className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"

@@ -2,6 +2,7 @@ import { motion } from 'motion/react'
 import { SectionEyebrow } from './primitives/SectionEyebrow'
 import { FadeInUp } from './primitives/FadeInUp'
 import { awardBadges } from '../data/zenardyContent'
+import { publicAsset } from '../lib/publicAsset'
 
 export function AwardsSection() {
   const items = [...awardBadges, ...awardBadges]
@@ -26,7 +27,7 @@ export function AwardsSection() {
           {items.map((award, i) => (
             <motion.img
               key={`${award.name}-${i}`}
-              src={award.image}
+              src={publicAsset(award.image)}
               alt={award.name}
               title={award.name}
               className="h-24 md:h-32 lg:h-36 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity shrink-0"
