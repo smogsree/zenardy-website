@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zenardy</title>
+    <script>
+      // GitHub Pages SPA fallback: redirect unknown paths to index.html
+      ;(function () {
+        var redirect = sessionStorage.getItem('gh-spa-redirect')
+        if (redirect) {
+          sessionStorage.removeItem('gh-spa-redirect')
+          history.replaceState(null, '', redirect)
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <script>
+      sessionStorage.setItem('gh-spa-redirect', location.pathname + location.search + location.hash)
+      location.replace(document.querySelector('base')?.href || '/')
+    </script>
+  </body>
+</html>

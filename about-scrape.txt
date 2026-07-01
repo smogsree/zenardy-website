@@ -1,0 +1,1263 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About &#8211; Zenardy</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Zenardy &raquo; Feed" href="https://zenardy.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Zenardy &raquo; Comments Feed" href="https://zenardy.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://zenardy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzenardy.com%2Fabout%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://zenardy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzenardy.com%2Fabout%2F&#038;format=xml" />
+
+<link rel='stylesheet' id='wp-event-manager-frontend-css' href='https://zenardy.com/wp-content/plugins/wp-event-manager/assets/css/frontend.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='wp-event-manager-jquery-ui-daterangepicker-css' href='https://zenardy.com/wp-content/plugins/wp-event-manager/assets/js/jquery-ui-daterangepicker/jquery.comiseo.daterangepicker.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='wp-event-manager-jquery-ui-daterangepicker-style-css' href='https://zenardy.com/wp-content/plugins/wp-event-manager/assets/js/jquery-ui-daterangepicker/styles.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='wp-event-manager-jquery-ui-css-css' href='https://zenardy.com/wp-content/plugins/wp-event-manager/assets/js/jquery-ui/jquery-ui.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='wp-event-manager-grid-style-css' href='https://zenardy.com/wp-content/plugins/wp-event-manager/assets/css/wpem-grid.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='wp-event-manager-font-style-css' href='https://zenardy.com/wp-content/plugins/wp-event-manager/assets/fonts/style.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='hfe-widgets-style-css' href='https://zenardy.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=2.6.1' media='all' />
+
+
+
+<link rel='stylesheet' id='awsm-jobs-general-css' href='https://zenardy.com/wp-content/plugins/wp-job-openings/assets/css/general.min.css?ver=3.5.4' media='all' />
+<link rel='stylesheet' id='awsm-jobs-style-css' href='https://zenardy.com/wp-content/plugins/wp-job-openings/assets/css/style.min.css?ver=3.5.4' media='all' />
+
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://zenardy.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.3' media='all' />
+<link rel='stylesheet' id='wp-event-manager-jquery-timepicker-css-css' href='https://zenardy.com/wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='hfe-style-css' href='https://zenardy.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=2.6.1' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='eael-general-css' href='https://zenardy.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.4.0' media='all' />
+<link rel='stylesheet' id='eael-706-css' href='https://zenardy.com/wp-content/uploads/essential-addons-elementor/eael-706.css?ver=1779380830' media='all' />
+<link rel='stylesheet' id='elementor-post-8-css' href='https://zenardy.com/wp-content/uploads/elementor/css/post-8.css?ver=1779318729' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInLeft-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInRight-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInDown-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='widget-video-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='elementor-post-706-css' href='https://zenardy.com/wp-content/uploads/elementor/css/post-706.css?ver=1779380856' media='all' />
+<link rel='stylesheet' id='elementor-post-5015-css' href='https://zenardy.com/wp-content/uploads/elementor/css/post-5015.css?ver=1779318729' media='all' />
+<link rel='stylesheet' id='bao-body-fonts-css' href='//fonts.googleapis.com/css?family=Heebo%3A400%2C400i%2C700%2C700i%26display%3Dswap%7CHeebo%3A400%2C400i%2C500%2C500i%2C600%2C700%2C800%26display%3Dswap&#038;ver=1.0.0' media='screen' />
+<link rel='stylesheet' id='bootstrap-css' href='https://zenardy.com/wp-content/themes/bao/assets/css/bootstrap.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='animate-css' href='https://zenardy.com/wp-content/themes/bao/assets/css/animate.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='magnific-popup-css' href='https://zenardy.com/wp-content/themes/bao/assets/css/magnific-popup.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='fontawesome-all-css' href='https://zenardy.com/wp-content/themes/bao/assets/css/fontawesome-all.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='meanmenu-css' href='https://zenardy.com/wp-content/themes/bao/assets/css/meanmenu.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='slick-css' href='https://zenardy.com/wp-content/themes/bao/assets/css/slick.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='bao-gutenberg-custom-css' href='https://zenardy.com/wp-content/themes/bao/assets/css//gutenberg/gutenberg-custom.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='bao-main-css' href='https://zenardy.com/wp-content/themes/bao/assets/css/bao-main.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='bao-responsive-css' href='https://zenardy.com/wp-content/themes/bao/assets/css/bao-responsive.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='bao-style-css' href='https://zenardy.com/wp-content/themes/bao/style.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='e-popup-css' href='https://zenardy.com/wp-content/plugins/pro-elements/assets/css/conditionals/popup.min.css?ver=3.32.1' media='all' />
+<link rel='stylesheet' id='elementor-post-4762-css' href='https://zenardy.com/wp-content/uploads/elementor/css/post-4762.css?ver=1779318729' media='all' />
+<link rel='stylesheet' id='elementor-post-4628-css' href='https://zenardy.com/wp-content/uploads/elementor/css/post-4628.css?ver=1779318729' media='all' />
+<link rel='stylesheet' id='bao-frontend-css' href='https://zenardy.com/wp-content/plugins/bao-master/assets/css/bao-frontend.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='bao-master-css' href='https://zenardy.com/wp-content/plugins/bao-master/assets/css/bao-master.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='https://zenardy.com/wp-content/plugins/bao-master/assets/css/owl.carousel.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='hfe-elementor-icons-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.34.0' media='all' />
+<link rel='stylesheet' id='hfe-icons-list-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3' media='all' />
+<link rel='stylesheet' id='hfe-social-icons-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.0' media='all' />
+<link rel='stylesheet' id='hfe-social-share-icons-brands-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='hfe-social-share-icons-fontawesome-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='hfe-nav-menu-icons-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='hfe-widget-blockquote-css' href='https://zenardy.com/wp-content/plugins/elementor-pro/assets/css/widget-blockquote.min.css?ver=3.25.0' media='all' />
+<link rel='stylesheet' id='hfe-mega-menu-css' href='https://zenardy.com/wp-content/plugins/elementor-pro/assets/css/widget-mega-menu.min.css?ver=3.26.2' media='all' />
+<link rel='stylesheet' id='hfe-nav-menu-widget-css' href='https://zenardy.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=3.26.0' media='all' />
+<link rel='stylesheet' id='ekit-widget-styles-css' href='https://zenardy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.7.5' media='all' />
+<link rel='stylesheet' id='ekit-widget-styles-pro-css' href='https://zenardy.com/wp-content/plugins/elementskit/widgets/init/assets/css/widget-styles-pro.css?ver=3.9.1' media='all' />
+<link rel='stylesheet' id='ekit-responsive-css' href='https://zenardy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.7.5' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://zenardy.com/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1747138605' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://zenardy.com/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1747138606' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-heebo-css' href='https://zenardy.com/wp-content/uploads/elementor/google-fonts/css/heebo.css?ver=1747138607' media='all' />
+<link rel='stylesheet' id='elementor-icons-ekiticons-css' href='https://zenardy.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.7.5' media='all' />
+
+
+
+<link rel="https://api.w.org/" href="https://zenardy.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://zenardy.com/wp-json/wp/v2/pages/706" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://zenardy.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<link rel="canonical" href="https://zenardy.com/about/" />
+<link rel='shortlink' href='https://zenardy.com/?p=706' />
+<!-- start Simple Custom CSS and JS -->
+<!-- Add HTML code to the header or the footer.
+
+For example, you can use the following code for loading the jQuery library from Google CDN:
+
+
+or the following one for loading the Bootstrap library from jsDelivr:
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+-- End of the comment --> 
+
+<!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+
+<!-- end Simple Custom CSS and JS -->
+<meta name="generator" content="Elementor 3.33.0; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+
+
+
+
+
+
+
+
+			
+					
+		<link rel="icon" href="https://zenardy.com/wp-content/uploads/2025/05/cropped-Zenardy-logo-small-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://zenardy.com/wp-content/uploads/2025/05/cropped-Zenardy-logo-small-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://zenardy.com/wp-content/uploads/2025/05/cropped-Zenardy-logo-small-180x180.png" />
+<meta name="msapplication-TileImage" content="https://zenardy.com/wp-content/uploads/2025/05/cropped-Zenardy-logo-small-270x270.png" />
+
+<link rel='stylesheet' id='widget-image-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='https://zenardy.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='elementskit-reset-button-for-pro-form-css-css' href='https://zenardy.com/wp-content/plugins/elementskit/modules/pro-form-reset-button/assets/css/elementskit-reset-button.css?ver=3.9.1' media='all' />
+
+</head>
+
+<body class="wp-singular page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-706 wp-custom-logo wp-theme-bao ehf-footer ehf-template-bao ehf-stylesheet-bao bao elementor-default elementor-kit-8 elementor-page elementor-page-706">
+
+        
+        
+    <div class="theme-bg">
+    <!-- Start of Header 
+    ============================================= -->
+    
+<!-- header-area -->
+<header id="header-sticky" class="header-area transparent-header breadcrumb_height none-site-desc header1">
+  <div class="container-fluid container-padding container-padding-two">
+    <div class="row align-items-center">
+      <div class="col-xl-2 col-lg-4">
+        <div class="logo">
+          <a href="https://zenardy.com/" class="navbar-brand-logo"><img src="https://zenardy.com/wp-content/uploads/2025/05/Zenardy-Logo-1.png" alt="Bao logo"></a>	        </div>
+      </div>
+
+      
+      <div class="col-xl-10 col-lg-8">
+        <div class="main-menu text-right text-xl-center">
+          <nav id="mobile-menu">
+            <ul class="bao-main-menu"><li id="menu-item-1922" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1922"><a href="https://zenardy.com/">Home</a></li>
+<li id="menu-item-2175" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-706 current_page_item menu-item-2175 active"><a href="https://zenardy.com/about/">About Us</a></li>
+<li id="menu-item-10596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10596 submenu-area"><a href="https://zenardy.com/services/" data-toggle="submenu-area" class="dropdown-toggle" aria-haspopup="true">Services</a>
+<ul class="submenu">
+	<li id="menu-item-12703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12703"><a href="https://zenardy.com/services/netsuite-services-2/">NetSuite Services</a></li>
+	<li id="menu-item-12702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12702"><a href="https://zenardy.com/services/netsuite-integrations/">NetSuite Integrations</a></li>
+	<li id="menu-item-12700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12700"><a href="https://zenardy.com/services/celigo-services/">Celigo Services</a></li>
+	<li id="menu-item-12704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12704"><a href="https://zenardy.com/services/salesforce-services/">Salesforce Services</a></li>
+	<li id="menu-item-12699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12699"><a href="https://zenardy.com/services/boomi-services/">Boomi Services</a></li>
+	<li id="menu-item-12701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12701"><a href="https://zenardy.com/services/epm-services/">EPM Services</a></li>
+	<li id="menu-item-12698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12698"><a href="https://zenardy.com/services/automation-intelligence/">Automation &amp; Intelligence</a></li>
+	<li id="menu-item-12705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12705"><a href="https://zenardy.com/services/zen-solutions/">Zen Solutions</a></li>
+</ul>
+</li>
+<li id="menu-item-7805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7805 submenu-area"><a href="#" data-toggle="submenu-area" class="dropdown-toggle" aria-haspopup="true">Industries</a>
+<ul class="submenu">
+	<li id="menu-item-11273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11273"><a href="https://zenardy.com/food-beverage/">Food &amp; Beverage</a></li>
+	<li id="menu-item-11272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11272"><a href="https://zenardy.com/e-commerce-distribution/">E-commerce, Distribution</a></li>
+	<li id="menu-item-11278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11278"><a href="https://zenardy.com/wholesale-distribution/">Wholesale Distribution</a></li>
+	<li id="menu-item-11275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11275"><a href="https://zenardy.com/retail/">Retail</a></li>
+	<li id="menu-item-11277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11277"><a href="https://zenardy.com/software-services/">Software Services</a></li>
+	<li id="menu-item-11274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11274"><a href="https://zenardy.com/manufacturing/">Manufacturing</a></li>
+	<li id="menu-item-11271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11271"><a href="https://zenardy.com/dmo/">DMO</a></li>
+	<li id="menu-item-11276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11276"><a href="https://zenardy.com/software-hightech/">Software / Hightech</a></li>
+</ul>
+</li>
+<li id="menu-item-7808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7808 submenu-area"><a href="#" data-toggle="submenu-area" class="dropdown-toggle" aria-haspopup="true">Zen IP Solutions</a>
+<ul class="submenu">
+	<li id="menu-item-12710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12710"><a href="https://zenardy.com/solutions/zen-catch-weight/">Zen Catch Weight Solution</a></li>
+	<li id="menu-item-12709" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12709"><a href="https://zenardy.com/solutions/zen-ai-auto-fulfillment/">Zen AI Auto Fulfillment – Warehouse</a></li>
+	<li id="menu-item-12708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12708"><a href="https://zenardy.com/solutions/zen-advanced-budgeting-solution/">Zen Advanced Budgeting Solution</a></li>
+	<li id="menu-item-12711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12711"><a href="https://zenardy.com/solutions/zen-mobile-order-printing/">Zen Mobile Order Printing</a></li>
+	<li id="menu-item-12707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12707"><a href="https://zenardy.com/solutions/zen-aa-advanced-allocations/">Zen AA – Advanced Allocations</a></li>
+</ul>
+</li>
+<li id="menu-item-7807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7807 submenu-area"><a href="#" data-toggle="submenu-area" class="dropdown-toggle" aria-haspopup="true">Inside Zenardy</a>
+<ul class="submenu">
+	<li id="menu-item-8288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8288"><a href="https://zenardy.com/careers/">Careers</a></li>
+	<li id="menu-item-13506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13506"><a href="https://zenardy.com/zenardy-culture/">Zenardy Culture</a></li>
+</ul>
+</li>
+<li id="menu-item-2449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2449"><a href="https://zenardy.com/contact/">Contact</a></li>
+</ul>          </nav>
+        </div>
+      </div>
+
+                    
+      <div class="col-12">
+        <div class="mobile-menu"></div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header-area-end -->
+
+   
+    <!-- End of  Header 
+    ============================================= -->
+    
+    <main>
+    <!-- breadcrumb-area -->
+    <section class="breadcrumb-area breadcrumb-bg d-flex align-items-center image-overlay  breadcrumb_height hv1"  style="background-image: url(https://zenardy.com/wp-content/uploads/2025/08/Team-Outing-1-1.png);">
+                <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2>
+                            About     
+                        </h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item active" aria-current="page"><ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a href="https://zenardy.com/"  class="home">Home</a></li><li class="breadcrumb-item active">About</li></ol><!-- .breadcrumbs --></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <div class="transparent-title">Zenardy</div>
+                    <div class="breadcrumb-shape"></div>
+        
+    </section>
+    <!-- breadcrumb-area-end -->
+
+ 
+			<div data-elementor-type="wp-page" data-elementor-id="706" class="elementor elementor-706" data-elementor-post-type="page">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-f6a25b2 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f6a25b2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6d68305 h2-about-imgs-wrap" data-id="6d68305" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-11e6b3e elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-animated_image" data-id="11e6b3e" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="animated_image.default">
+				<div class="elementor-widget-container">
+					   	<div class="anim-image" >
+   		         <img decoding="async" width="125" height="125" src="https://zenardy.com/wp-content/uploads/2020/04/bg2-shape.png" class="attachment-thumbnail size-thumbnail wp-image-90" alt="Shape" srcset="https://zenardy.com/wp-content/uploads/2020/04/bg2-shape.png 125w, https://zenardy.com/wp-content/uploads/2020/04/bg2-shape-80x80.png 80w" sizes="(max-width: 125px) 100vw, 125px" />      	     </div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-400a160 elementor-invisible elementor-widget elementor-widget-animated_image" data-id="400a160" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="animated_image.default">
+				<div class="elementor-widget-container">
+					   	<div class="anim-image" >
+   		         <img fetchpriority="high" decoding="async" width="500" height="400" src="https://zenardy.com/wp-content/uploads/2025/05/1184-4.webp" class="attachment-full size-full wp-image-5591" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/05/1184-4.webp 500w, https://zenardy.com/wp-content/uploads/2025/05/1184-4-300x240.webp 300w, https://zenardy.com/wp-content/uploads/2025/05/1184-4-80x64.webp 80w" sizes="(max-width: 500px) 100vw, 500px" />      	     </div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-ca9e51c elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-animated_image" data-id="ca9e51c" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="animated_image.default">
+				<div class="elementor-widget-container">
+					   	<div class="anim-image" >
+   		         <img decoding="async" width="254" height="254" src="https://zenardy.com/wp-content/uploads/2020/04/bg-shape.png" class="attachment-large size-large wp-image-84" alt="Shape" srcset="https://zenardy.com/wp-content/uploads/2020/04/bg-shape.png 254w, https://zenardy.com/wp-content/uploads/2020/04/bg-shape-150x150.png 150w, https://zenardy.com/wp-content/uploads/2020/04/bg-shape-80x80.png 80w" sizes="(max-width: 254px) 100vw, 254px" />      	     </div>
+					</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d04a160" data-id="d04a160" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-8b95377 elementor-invisible elementor-widget elementor-widget-section-head" data-id="8b95377" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="section-head.default">
+				<div class="elementor-widget-container">
+							<div class="section-title ">
+			            <span class="line wow ">About Us</span>
+                        <h2  >
+            	Business today cross borders.            </h2>
+                        <p >Zenardy is a technology consulting firm specializing in enterprise technology strategy, cloud simplification, and digital transformation, delivering end-to-end solutions aligned with business goals.</p>
+                  </div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-a054f38 elementor-invisible elementor-widget elementor-widget-heading" data-id="a054f38" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">As a trusted Oracle NetSuite partner, we help businesses streamline operations, enhance visibility, and scale efficiently through cloud-based ERP solutions.</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a74e9d4 hover-arrow-btn elementor-invisible elementor-widget elementor-widget-button" data-id="a74e9d4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ2MjgiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
+									<span class="elementor-button-text">Learn More</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b76e324 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b76e324" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f81a20f" data-id="f81a20f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6cb3e64 elementor-invisible elementor-widget elementor-widget-section-head" data-id="6cb3e64" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="section-head.default">
+				<div class="elementor-widget-container">
+							<div class="section-title ">
+			            <span class="line wow ">Mission &amp; Vision</span>
+                        <h2  >
+            	You Should See Everything.            </h2>
+                        <p >Zenardy delivers strategic FP&amp;A solutions through Oracle NetSuite, aligning tailored modules to each client&#039;s ERP landscape for enhanced efficiency, automation, and growth.</p>
+                  </div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-5562358 elementor-invisible elementor-widget elementor-widget-single-icon-item" data-id="5562358" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="single-icon-item.default">
+				<div class="elementor-widget-container">
+						      	<div class="about-avatar common-item-box">
+	      			            <div class="about-avatar-icon common-icon">
+	                		         		<i class="fal fa-atom-alt"></i>
+		         		            </div>
+	            	            <div class="about-avatar-info">
+	            		                <h5 class="common-desc">Our vision is to empower organizations to transform into strategic, data-driven powerhouses for scalable, sustainable growth.</h5>
+	                	            </div>
+	        </div>
+	    				</div>
+				</div>
+				<div class="elementor-element elementor-element-6282898 hover-arrow-btn elementor-invisible elementor-widget elementor-widget-button" data-id="6282898" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ3NjIiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
+									<span class="elementor-button-text">Learn More</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7e338fc h2-about-imgs-wrap" data-id="7e338fc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-921e344 elementor-invisible elementor-widget elementor-widget-animated_image" data-id="921e344" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="animated_image.default">
+				<div class="elementor-widget-container">
+					   	<div class="anim-image" >
+   		         <img loading="lazy" decoding="async" width="420" height="480" src="https://zenardy.com/wp-content/uploads/2025/06/2151966684.webp" class="attachment-full size-full wp-image-8016" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/06/2151966684.webp 420w, https://zenardy.com/wp-content/uploads/2025/06/2151966684-263x300.webp 263w, https://zenardy.com/wp-content/uploads/2025/06/2151966684-70x80.webp 70w" sizes="(max-width: 420px) 100vw, 420px" />      	     </div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-c6fdf05 elementor-hidden-phone elementor-widget elementor-widget-animated_image" data-id="c6fdf05" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="animated_image.default">
+				<div class="elementor-widget-container">
+					   	<div class="anim-image" >
+   		         <img loading="lazy" decoding="async" width="412" height="510" src="https://zenardy.com/wp-content/uploads/2020/05/mv_img_shape.png" class="attachment-large size-large wp-image-714" alt="" srcset="https://zenardy.com/wp-content/uploads/2020/05/mv_img_shape.png 412w, https://zenardy.com/wp-content/uploads/2020/05/mv_img_shape-242x300.png 242w, https://zenardy.com/wp-content/uploads/2020/05/mv_img_shape-65x80.png 65w" sizes="(max-width: 412px) 100vw, 412px" />      	     </div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-85e19d9 elementor-hidden-tablet elementor-hidden-mobile elementor-invisible elementor-widget elementor-widget-animated_image" data-id="85e19d9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="animated_image.default">
+				<div class="elementor-widget-container">
+					   	<div class="anim-image" >
+   		         <img loading="lazy" decoding="async" width="391" height="260" src="https://zenardy.com/wp-content/uploads/2025/06/11623.webp" class="attachment-large size-large wp-image-8017" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/06/11623.webp 391w, https://zenardy.com/wp-content/uploads/2025/06/11623-300x199.webp 300w, https://zenardy.com/wp-content/uploads/2025/06/11623-80x53.webp 80w" sizes="(max-width: 391px) 100vw, 391px" />      	     </div>
+					</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+		<div class="elementor-element elementor-element-071c888 e-flex e-con-boxed e-con e-parent" data-id="071c888" data-element_type="container" id="team" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-47a28b6 elementor-invisible elementor-widget elementor-widget-section-head" data-id="47a28b6" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="section-head.default">
+				<div class="elementor-widget-container">
+							<div class="section-title section-title-two">
+			            <h2  >
+            	Our Team            </h2>
+                        <h3 class="section-title-transparent">Team</h3>
+        	      </div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-e7b4ba1 e-flex e-con-boxed e-con e-parent" data-id="e7b4ba1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-ef67170 e-con-full e-flex e-con e-child" data-id="ef67170" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<div class="elementor-element elementor-element-1013883 e-con-full e-flex e-con e-child" data-id="1013883" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-026955d --eael-wrapper-link-tag" href="https://zenardy.com/team/vijay-avadhan/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-026955d" class="elementor-element elementor-element-026955d elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="026955d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="493" height="491" src="https://zenardy.com/wp-content/uploads/2025/08/Vijay-Avadhan-1-1.png" class="attachment-large size-large wp-image-13605" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/08/Vijay-Avadhan-1-1.png 493w, https://zenardy.com/wp-content/uploads/2025/08/Vijay-Avadhan-1-1-300x300.png 300w, https://zenardy.com/wp-content/uploads/2025/08/Vijay-Avadhan-1-1-150x150.png 150w, https://zenardy.com/wp-content/uploads/2025/08/Vijay-Avadhan-1-1-80x80.png 80w" sizes="(max-width: 493px) 100vw, 493px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											Vijay Avadhan										</h2>
+					<p class="profile-designation">Chief Executive Officer</p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-78684cf elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="78684cf" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/vavadhan/" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1626db9 e-con-full e-flex e-con e-child" data-id="1626db9" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<div class="elementor-element elementor-element-a3460f5 e-con-full e-flex e-con e-child" data-id="a3460f5" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-08b57d7 --eael-wrapper-link-tag" href="https://zenardy.com/team/venky-gurunathan/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-08b57d7" class="elementor-element elementor-element-08b57d7 elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="08b57d7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="500" height="500" src="https://zenardy.com/wp-content/uploads/2025/07/IMG-20250711-WA0004.webp" class="attachment-large size-large wp-image-11454" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/07/IMG-20250711-WA0004.webp 500w, https://zenardy.com/wp-content/uploads/2025/07/IMG-20250711-WA0004-300x300.webp 300w, https://zenardy.com/wp-content/uploads/2025/07/IMG-20250711-WA0004-150x150.webp 150w, https://zenardy.com/wp-content/uploads/2025/07/IMG-20250711-WA0004-80x80.webp 80w" sizes="(max-width: 500px) 100vw, 500px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											Venky Gurunathan										</h2>
+					<p class="profile-designation">Chief Operating Officer</p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-dfc4fae elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="dfc4fae" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/venkygurunathan" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f54e0e1 e-con-full e-flex e-con e-child" data-id="f54e0e1" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<div class="elementor-element elementor-element-fbb2307 e-con-full e-flex e-con e-child" data-id="fbb2307" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-b855fb6 --eael-wrapper-link-tag" href="https://zenardy.com/team/deepa-avadhan/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-b855fb6" class="elementor-element elementor-element-b855fb6 elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="b855fb6" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="1024" height="1024" src="https://zenardy.com/wp-content/uploads/2025/12/Deepa-Avadhan-1024x1024.png" class="attachment-large size-large wp-image-14178" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/12/Deepa-Avadhan-1024x1024.png 1024w, https://zenardy.com/wp-content/uploads/2025/12/Deepa-Avadhan-300x300.png 300w, https://zenardy.com/wp-content/uploads/2025/12/Deepa-Avadhan-150x150.png 150w, https://zenardy.com/wp-content/uploads/2025/12/Deepa-Avadhan-768x768.png 768w, https://zenardy.com/wp-content/uploads/2025/12/Deepa-Avadhan-80x80.png 80w, https://zenardy.com/wp-content/uploads/2025/12/Deepa-Avadhan-1536x1536.png 1536w, https://zenardy.com/wp-content/uploads/2025/12/Deepa-Avadhan-2048x2048.png 2048w, https://zenardy.com/wp-content/uploads/2025/12/Deepa-Avadhan-570x570.png 570w" sizes="(max-width: 1024px) 100vw, 1024px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											Deepa Avadhan										</h2>
+					<p class="profile-designation">Delivery Lead &amp; VP - Finance</p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0f31dc9 elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="0f31dc9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/deepaavadhan/" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-c2c0a78 e-flex e-con-boxed e-con e-parent" data-id="c2c0a78" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-efc3367 e-con-full e-flex e-con e-child" data-id="efc3367" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<div class="elementor-element elementor-element-705fa6b e-con-full e-flex e-con e-child" data-id="705fa6b" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-ea71742 --eael-wrapper-link-tag" href="https://zenardy.com/team/jim-bowes/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-ea71742" class="elementor-element elementor-element-ea71742 elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="ea71742" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="1024" height="1024" src="https://zenardy.com/wp-content/uploads/2025/09/Jim-Bowes_Zenardy-1024x1024.png" class="attachment-large size-large wp-image-13796" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/09/Jim-Bowes_Zenardy-1024x1024.png 1024w, https://zenardy.com/wp-content/uploads/2025/09/Jim-Bowes_Zenardy-300x300.png 300w, https://zenardy.com/wp-content/uploads/2025/09/Jim-Bowes_Zenardy-150x150.png 150w, https://zenardy.com/wp-content/uploads/2025/09/Jim-Bowes_Zenardy-768x768.png 768w, https://zenardy.com/wp-content/uploads/2025/09/Jim-Bowes_Zenardy-80x80.png 80w, https://zenardy.com/wp-content/uploads/2025/09/Jim-Bowes_Zenardy-1536x1536.png 1536w, https://zenardy.com/wp-content/uploads/2025/09/Jim-Bowes_Zenardy-2048x2048.png 2048w, https://zenardy.com/wp-content/uploads/2025/09/Jim-Bowes_Zenardy-570x570.png 570w" sizes="(max-width: 1024px) 100vw, 1024px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											Jim Bowes										</h2>
+					<p class="profile-designation">High-Tech Sales Lead</p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-db6c7be elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="db6c7be" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/jim-bowes" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d112c9c e-con-full e-flex e-con e-child" data-id="d112c9c" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<div class="elementor-element elementor-element-3e8816d e-con-full e-flex e-con e-child" data-id="3e8816d" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<div class="elementor-element elementor-element-13aa817 e-con-full e-flex e-con e-child" data-id="13aa817" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-bae8aa1 --eael-wrapper-link-tag" href="https://zenardy.com/team/lindsey-wojcik/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-bae8aa1" class="elementor-element elementor-element-bae8aa1 elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="bae8aa1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="800" height="800" src="https://zenardy.com/wp-content/uploads/2025/12/1760028855602-1.jpg" class="attachment-large size-large wp-image-14123" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/12/1760028855602-1.jpg 800w, https://zenardy.com/wp-content/uploads/2025/12/1760028855602-1-300x300.jpg 300w, https://zenardy.com/wp-content/uploads/2025/12/1760028855602-1-150x150.jpg 150w, https://zenardy.com/wp-content/uploads/2025/12/1760028855602-1-768x768.jpg 768w, https://zenardy.com/wp-content/uploads/2025/12/1760028855602-1-80x80.jpg 80w, https://zenardy.com/wp-content/uploads/2025/12/1760028855602-1-570x570.jpg 570w" sizes="(max-width: 800px) 100vw, 800px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											Lindsey Wojcik										</h2>
+					<p class="profile-designation">Industry Head - Products</p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c1aa58c elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="c1aa58c" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/lindsey-wojcik-74021150/" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4c116a3 e-con-full e-flex e-con e-child" data-id="4c116a3" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<div class="elementor-element elementor-element-211c893 e-con-full e-flex e-con e-child" data-id="211c893" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-69c34a0 --eael-wrapper-link-tag" href="https://zenardy.com/team/john-spellacy/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-69c34a0" class="elementor-element elementor-element-69c34a0 elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="69c34a0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="1024" height="1024" src="https://zenardy.com/wp-content/uploads/2025/09/John-Spellacy_Zenardy-1024x1024.png" class="attachment-large size-large wp-image-13795" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/09/John-Spellacy_Zenardy-1024x1024.png 1024w, https://zenardy.com/wp-content/uploads/2025/09/John-Spellacy_Zenardy-300x300.png 300w, https://zenardy.com/wp-content/uploads/2025/09/John-Spellacy_Zenardy-150x150.png 150w, https://zenardy.com/wp-content/uploads/2025/09/John-Spellacy_Zenardy-768x768.png 768w, https://zenardy.com/wp-content/uploads/2025/09/John-Spellacy_Zenardy-80x80.png 80w, https://zenardy.com/wp-content/uploads/2025/09/John-Spellacy_Zenardy-1536x1536.png 1536w, https://zenardy.com/wp-content/uploads/2025/09/John-Spellacy_Zenardy-2048x2048.png 2048w, https://zenardy.com/wp-content/uploads/2025/09/John-Spellacy_Zenardy-570x570.png 570w" sizes="(max-width: 1024px) 100vw, 1024px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											John Spellacy										</h2>
+					<p class="profile-designation">Emerging Sales Head</p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-aed1d7c elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="aed1d7c" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/john-spellacy-015105140" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-46d2494 e-flex e-con-boxed e-con e-parent" data-id="46d2494" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-42614d9 elementor-invisible elementor-widget elementor-widget-section-head" data-id="42614d9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="section-head.default">
+				<div class="elementor-widget-container">
+							<div class="section-title ">
+			            <h2  >
+            	Operations Team            </h2>
+                  </div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-91e0282 e-flex e-con-boxed e-con e-parent" data-id="91e0282" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-6bf5bc1 e-con-full e-flex e-con e-child" data-id="6bf5bc1" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-ea7d55c --eael-wrapper-link-tag" href="https://zenardy.com/team/shiva-koppolu/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-ea7d55c" class="elementor-element elementor-element-ea7d55c elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="ea7d55c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="430" height="430" src="https://zenardy.com/wp-content/uploads/2025/08/Shiva-Koppolu-1-5.png" class="attachment-large size-large wp-image-13535" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/08/Shiva-Koppolu-1-5.png 430w, https://zenardy.com/wp-content/uploads/2025/08/Shiva-Koppolu-1-5-300x300.png 300w, https://zenardy.com/wp-content/uploads/2025/08/Shiva-Koppolu-1-5-150x150.png 150w, https://zenardy.com/wp-content/uploads/2025/08/Shiva-Koppolu-1-5-80x80.png 80w" sizes="(max-width: 430px) 100vw, 430px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											Shiva  Koppolu										</h2>
+					<p class="profile-designation">Hyderabad Center Head </p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-58d10d3 elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="58d10d3" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/shivakumarkoppolu/" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f9b90c0 e-con-full e-flex e-con e-child" data-id="f9b90c0" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-b84a42e --eael-wrapper-link-tag" href="https://zenardy.com/team/preethi-ramamurthy/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-b84a42e" class="elementor-element elementor-element-b84a42e elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="b84a42e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="570" height="570" src="https://zenardy.com/wp-content/uploads/2020/05/IMG_20260104_194932-570x570.png" class="attachment-bao-portfolio-thumb-570 size-bao-portfolio-thumb-570 wp-image-14415" alt="" srcset="https://zenardy.com/wp-content/uploads/2020/05/IMG_20260104_194932-570x570.png 570w, https://zenardy.com/wp-content/uploads/2020/05/IMG_20260104_194932-150x150.png 150w, https://zenardy.com/wp-content/uploads/2020/05/IMG_20260104_194932-300x300.png 300w" sizes="(max-width: 570px) 100vw, 570px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											Preethi Ramamurthy										</h2>
+					<p class="profile-designation">Chennai Center Head + Senior HR</p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6e95e3f elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="6e95e3f" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/preethi-r-6ab0b9293/" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-ea4ddd1 e-flex e-con-boxed e-con e-parent" data-id="ea4ddd1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-749fc5b elementor-widget elementor-widget-section-head" data-id="749fc5b" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="section-head.default">
+				<div class="elementor-widget-container">
+							<div class="section-title ">
+			            <h2  >
+            	Capability Team            </h2>
+                  </div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-37caf03 e-flex e-con-boxed e-con e-parent" data-id="37caf03" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-4c2cf3e e-con-full e-flex e-con e-child" data-id="4c2cf3e" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-d628e65 --eael-wrapper-link-tag" href="https://zenardy.com/team/saran-vasudevan/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-d628e65" class="elementor-element elementor-element-d628e65 elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="d628e65" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="482" height="482" src="https://zenardy.com/wp-content/uploads/2025/08/Saran-1-3.png" class="attachment-large size-large wp-image-13545" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/08/Saran-1-3.png 482w, https://zenardy.com/wp-content/uploads/2025/08/Saran-1-3-300x300.png 300w, https://zenardy.com/wp-content/uploads/2025/08/Saran-1-3-150x150.png 150w, https://zenardy.com/wp-content/uploads/2025/08/Saran-1-3-80x80.png 80w" sizes="(max-width: 482px) 100vw, 482px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											Saran Vasudevan										</h2>
+					<p class="profile-designation">EPM Practice Head</p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3424c03 elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="3424c03" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/saran-vasudevan-b73097223/" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-9520073 e-con-full e-flex e-con e-child" data-id="9520073" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		<a class="eael-wrapper-link-f637343 --eael-wrapper-link-tag" href="https://zenardy.com/team/esther-beula/"></a>		<div data-eael-wrapper-link="eael-wrapper-link-f637343" class="elementor-element elementor-element-f637343 elementor-invisible elementor-widget elementor-widget-elementskit-team" data-id="f637343" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-team.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">								
+		<div class="profile-card elementor-animation- text-center ekit-team-style-default">
+			
+				<div class="profile-header ekit-team-img ekit-img-overlay ekit-team-img-block" >
+					<img loading="lazy" decoding="async" width="996" height="1024" src="https://zenardy.com/wp-content/uploads/2025/05/IMG-20250711-WA0002-996x1024.jpg" class="attachment-large size-large wp-image-13635" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/05/IMG-20250711-WA0002-996x1024.jpg 996w, https://zenardy.com/wp-content/uploads/2025/05/IMG-20250711-WA0002-292x300.jpg 292w, https://zenardy.com/wp-content/uploads/2025/05/IMG-20250711-WA0002-768x790.jpg 768w, https://zenardy.com/wp-content/uploads/2025/05/IMG-20250711-WA0002-78x80.jpg 78w, https://zenardy.com/wp-content/uploads/2025/05/IMG-20250711-WA0002.jpg 1020w" sizes="(max-width: 996px) 100vw, 996px" />				</div><!-- .profile-header END -->
+			
+
+				<div class="profile-body">
+					
+					<h2 class="profile-title">
+											Esther Beula										</h2>
+					<p class="profile-designation">Center of excellence</p>
+									</div><!-- .profile-body END -->
+
+								</div>
+							
+			
+				</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-e5159d7 elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="e5159d7" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-58d9701" href="https://www.linkedin.com/in/esther-beula-b165471bb/" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-338b0f5 e-flex e-con-boxed e-con e-parent" data-id="338b0f5" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4a613de elementor-invisible elementor-widget elementor-widget-section-head" data-id="4a613de" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="section-head.default">
+				<div class="elementor-widget-container">
+							<div class="section-title section-title-two">
+			            <h2  >
+            	7 Year Milestone            </h2>
+                        <h3 class="section-title-transparent">Video</h3>
+        	      </div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-ea7646d elementor-invisible elementor-widget elementor-widget-video" data-id="ea7646d" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/www.youtube.com\/watch?v=0r3exds0WUw&quot;,&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-15624cd e-flex e-con-boxed e-con e-parent" data-id="15624cd" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3dc7f84 elementor-invisible elementor-widget elementor-widget-section-head" data-id="3dc7f84" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="section-head.default">
+				<div class="elementor-widget-container">
+							<div class="section-title section-title-two">
+			            <h2  >
+            	Join the Team            </h2>
+                        <h3 class="section-title-transparent">Team</h3>
+        	      </div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-7b25d9b e-flex e-con-boxed e-con e-parent" data-id="7b25d9b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-732f2ee e-con-full e-flex e-con e-child" data-id="732f2ee" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-453e49e elementor-invisible elementor-widget elementor-widget-section-head" data-id="453e49e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="section-head.default">
+				<div class="elementor-widget-container">
+							<div class="section-title ">
+			            <span class="line wow ">We&#039;re hiring</span>
+                        <h2  >
+            	Come Grow With Us.            </h2>
+                  </div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-17a36e3 e-con-full e-flex e-con e-child" data-id="17a36e3" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-74b8b3a hover-arrow-btn elementor-invisible elementor-widget elementor-widget-button" data-id="74b8b3a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://zenardy.com/careers/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
+									<span class="elementor-button-text">View Job Openings</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6f81dae e-flex e-con-boxed e-con e-parent" data-id="6f81dae" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-543c17d elementor-invisible elementor-widget elementor-widget-section-head" data-id="543c17d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="section-head.default">
+				<div class="elementor-widget-container">
+							<div class="section-title section-title-two">
+			            <h2  >
+            	Customer Testimonial            </h2>
+                        <h3 class="section-title-transparent">Testimonial</h3>
+        	      </div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-aec3718 e-flex e-con-boxed e-con e-parent" data-id="aec3718" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-8fa6edf e-con-full e-flex e-con e-child" data-id="8fa6edf" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-53f5c29 elementor-invisible elementor-widget elementor-widget-video" data-id="53f5c29" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+							<div class="e-hosted-video elementor-wrapper elementor-open-inline">
+					<video class="elementor-video" src="https://zenardy.com/wp-content/uploads/2025/05/a23538ef-422d-4d08-98a7-46bcac950479.webm" controls="" preload="metadata" controlsList="nodownload"></video>
+				</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2f03ac1 e-con-full e-flex e-con e-child" data-id="2f03ac1" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-0231d51 elementor-invisible elementor-widget elementor-widget-video" data-id="0231d51" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+							<div class="e-hosted-video elementor-wrapper elementor-open-inline">
+					<video class="elementor-video" src="https://zenardy.com/wp-content/uploads/2025/05/cf1579fd-a233-4b9a-bad3-cda075f118f1-1.webm" controls="" preload="metadata" controlsList="nodownload"></video>
+				</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0805fd5 e-con-full e-flex e-con e-child" data-id="0805fd5" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-30219e0 elementor-invisible elementor-widget elementor-widget-video" data-id="30219e0" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+							<div class="e-hosted-video elementor-wrapper elementor-open-inline">
+					<video class="elementor-video" src="https://zenardy.com/wp-content/uploads/2025/06/Customer-Testimonial-2.webm" controls="" preload="metadata" controlsList="nodownload"></video>
+				</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-9d8ae4a e-con-full e-flex e-con e-child" data-id="9d8ae4a" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-67d9cdc elementor-widget elementor-widget-video" data-id="67d9cdc" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+							<div class="e-hosted-video elementor-wrapper elementor-open-inline">
+					<video class="elementor-video" src="https://zenardy.com/wp-content/uploads/2025/12/Boarderie-Video-5.mp4" controls="" preload="metadata" controlsList="nodownload" poster="https://zenardy.com/wp-content/uploads/2025/12/Screenshot-2025-12-02-173139.png"></video>
+				</div>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		
+
+		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+			<div class='footer-width-fixer'>		<div data-elementor-type="wp-post" data-elementor-id="5015" class="elementor elementor-5015" data-elementor-post-type="elementor-hf">
+				<div class="elementor-element elementor-element-b0caecc footer e-flex e-con-boxed e-con e-parent" data-id="b0caecc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2cb5ef1 e-con-full e-flex e-con e-child" data-id="2cb5ef1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-3558b55 elementor-widget elementor-widget-image" data-id="3558b55" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="180" height="32" src="https://zenardy.com/wp-content/uploads/2025/05/Zenardy-Logo-1.png" class="attachment-large size-large wp-image-2204" alt="" srcset="https://zenardy.com/wp-content/uploads/2025/05/Zenardy-Logo-1.png 180w, https://zenardy.com/wp-content/uploads/2025/05/Zenardy-Logo-1-80x14.png 80w" sizes="(max-width: 180px) 100vw, 180px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-bba6af4 elementor-widget elementor-widget-text-editor" data-id="bba6af4" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Zenardy is a global technology consultancy helping businesses simplify operations, drive intelligent automation, and achieve scalable growth with ERP and AI-driven solutions.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-9becd82 elementor-widget__width-initial elementor-widget elementor-widget-elementskit-social-media" data-id="9becd82" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-social-media.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con" >			 <ul class="ekit_social_media">
+														<li class="elementor-repeater-item-a0b025d">
+					    <a
+						href="https://www.linkedin.com/company/zenardy/" target="_blank" aria-label="LinkedIn" class="in" >
+							
+							<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+                                                                                                            </a>
+                    </li>
+                    														<li class="elementor-repeater-item-6cd4b74">
+					    <a
+						href="https://www.instagram.com/zenardy_technologies/?utm_source=qr&#038;igsh=ajN2NTQ3c3prYjZs#" target="_blank" aria-label="Instagram" class="1" >
+							
+							<i aria-hidden="true" class="icon icon-instagram-1"></i>
+                                                                                                            </a>
+                    </li>
+                    														<li class="elementor-repeater-item-1efc8dc">
+					    <a
+						href="https://www.youtube.com/@zenardyllc" target="_blank" aria-label="Youtube" class="1" >
+							
+							<i aria-hidden="true" class="icon icon-youtube-1"></i>
+                                                                                                            </a>
+                    </li>
+                    							</ul>
+		</div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f2b55ba e-con-full e-flex e-con e-child" data-id="f2b55ba" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-7bbae22 elementor-widget elementor-widget-heading" data-id="7bbae22" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Services</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-73b4847 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="73b4847" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/services/netsuite-services-2/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">NetSuite Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/services/netsuite-integrations/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">NetSuite Integrations</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/services/celigo-services/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Celigo Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/services/salesforce-services/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Salesforce Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/services/boomi-services/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Boomi Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/services/epm-services/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">EPM Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/services/automation-intelligence/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Automation &amp; Intelligence</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/services/zen-solutions/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Zen Solutions</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d85ce6b e-con-full e-flex e-con e-child" data-id="d85ce6b" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-26d6fa0 elementor-widget elementor-widget-heading" data-id="26d6fa0" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Industries</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3482b31 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3482b31" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/industries/food-beverage/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Food &amp; Beverage</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/industries/e-commerce-distribution/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">E-commerce, Distribution</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/industries/wholesale-distribution/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Wholesale Distribution</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/industries/retail/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Retail</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/industries/software-services/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Software Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/industries/manufacturing/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Manufacturing</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/industries/dmo/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">DMO</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/industries/software-hightech/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Software / Hightech</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-526921e e-con-full e-flex e-con e-child" data-id="526921e" data-element_type="container" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-bbdcd4d elementor-widget elementor-widget-heading" data-id="bbdcd4d" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Solutions</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-ce5eb09 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ce5eb09" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/solutions/zen-catch-weight/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Zen Catch Weight</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/solutions/zen-ai-auto-fulfillment/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Zen AI Auto Fulfillment</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/solutions/zen-advanced-budgeting-solution/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Zen Advanced Budgeting</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/solutions/zen-mobile-order-printing/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Zen Mobile Order Printing</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://zenardy.com/solutions/zen-aa-advanced-allocations/">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-right" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Zen AA – Advanced Allocations</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-fee3e1d e-flex e-con-boxed e-con e-parent" data-id="fee3e1d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-83c78ec e-con-full e-flex e-con e-child" data-id="83c78ec" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-038c9da my-hover-text elementor-widget elementor-widget-heading" data-id="038c9da" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://zenardy.com/contact#llc">ZENARDY LLC - US</a></h2>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-9493e5d e-con-full e-flex e-con e-child" data-id="9493e5d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-d969bae my-hover-text elementor-widget elementor-widget-heading" data-id="d969bae" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://zenardy.com/contact#chennai">ZENARDY TECHNOLOGIES PVT LTD- CHENNAI</a></h2>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-dad6846 e-con-full e-flex e-con e-child" data-id="dad6846" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-4cd1ef7 my-hover-text elementor-widget elementor-widget-heading" data-id="4cd1ef7" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://zenardy.com/contact#hyderabad">ZENARDY TECHNOLOGIES PVT LTD- HYDERABAD</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-8be006e footer-link e-flex e-con-boxed e-con e-parent" data-id="8be006e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d511c3d elementor-widget elementor-widget-text-editor" data-id="d511c3d" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									©<a href="https://zenardy.com/" target="_blank" rel="noopener noreferrer">Zenardy</a> 2025 / All Rights Reserved.
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		</div>		</footer>
+	</div><!-- #page -->
+
+		<div data-elementor-type="popup" data-elementor-id="4628" class="elementor elementor-4628 elementor-location-popup" data-elementor-settings="{&quot;open_selector&quot;:&quot;.about-popup-btn&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-ac672bf e-con-full e-flex e-con e-parent" data-id="ac672bf" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-a26f3f3 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="a26f3f3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Zenardy is a leading technology consulting firm specializing in enterprise-grade Technology Strategy, Cloud Architecture Simplification, and Digital Transformation Enablement. We engage with clients across the full solution lifecycle &#8211; from strategic planning and architectural design to deployment and operational optimization &#8211; ensuring every initiative is aligned with core business objectives and engineered for value realization.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-79c4233 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="79c4233" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>As a trusted Oracle NetSuite partner, we bring deep ERP expertise to help organizations streamline operations, enhance visibility, and scale efficiently on the cloud. Our proven delivery model accelerates time to value and ensures operational continuity throughout the transformation lifecycle.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-9fbf3cf elementor-invisible elementor-widget elementor-widget-text-editor" data-id="9fbf3cf" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									At the forefront of innovation, Zenardy also leverages advanced AI capabilities to augment decision-making, automate workflows, and unlock actionable insights across the enterprise. By integrating AI-driven solutions into our offerings, we empower clients to move beyond traditional system implementations and embrace intelligent, adaptive digital ecosystems.								</div>
+				</div>
+				<div class="elementor-element elementor-element-17cfd78 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="17cfd78" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									Our approach is deeply collaborative and outcomes-focused. We don’t just consult &#8211; we integrate with your teams, co-owning technology roadmaps and committing to the delivery of scalable, resilient, and future-ready solutions. At Zenardy, we combine technical depth with strategic insight to drive measurable impact across digital ecosystems.								</div>
+				</div>
+				</div>
+				</div>
+				<div data-elementor-type="popup" data-elementor-id="4762" class="elementor elementor-4762 elementor-location-popup" data-elementor-settings="{&quot;open_selector&quot;:&quot;.vision-mission&quot;,&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-5da003d e-con-full e-flex e-con e-parent" data-id="5da003d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-ab63327 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="ab63327" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>At Zenardy, we empower businesses by delivering strategic FP&amp;A solutions through Oracle NetSuite. Taking a holistic approach, we align the right modules with each client’s unique ERP landscape to drive efficiency, automation, and growth.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-38d7e00 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="38d7e00" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									With deep domain expertise and a proven track record,Our vision is to be a trusted partner for organizations seeking to transform their operations into strategic, data-driven powerhouses. Across diverse industries we enable them to navigate complexity, anticipate future needs, and achieve scalable, sustainable growth.								</div>
+				</div>
+				<div class="elementor-element elementor-element-ed69bb1 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="ed69bb1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									Building on this foundation, we position Zenardy as more than just a service provider-we are strategic enablers of digital transformation. Our deep expertise in Oracle NetSuite allows us to go beyond out-of-the-box implementations. We dive into the intricacies of each client’s business model to architect personalized ERP strategies that streamline operations, foster cross-functional alignment, and maximize data-driven decision-making.								</div>
+				</div>
+				<div class="elementor-element elementor-element-1a22b43 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="1a22b43" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									Combining technical excellence with business insight, we empower our clients to turn ERP challenges into competitive advantages. Whether it’s optimizing inventory for a wholesale distributor, enhancing project visibility for a services firm, or enabling real-time financial reporting for a multi-entity enterprise, our goal remains the same: to deliver scalable NetSuite solutions that evolve with your business and fuel sustainable growth								</div>
+				</div>
+				</div>
+				</div>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html> 
+
