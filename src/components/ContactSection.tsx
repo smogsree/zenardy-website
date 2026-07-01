@@ -122,10 +122,10 @@ export function ContactSection() {
                   <iframe
                     src={office.mapsEmbed}
                     title={`${office.name} map`}
-                    className="w-full h-full"
-                    loading="lazy"
+                    className="w-full h-full border-0"
+                    loading="eager"
                     allowFullScreen
-                    referrerPolicy="no-referrer-when-downgrade"
+                    referrerPolicy="strict-origin-when-cross-origin"
                   />
                 </div>
               ) : null}

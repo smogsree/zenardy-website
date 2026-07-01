@@ -27,11 +27,11 @@ export const offices: OfficeLocation[] = [
   },
   {
     name: 'Hyderabad',
-    address: 'Zenardy Technologies Pvt Ltd, Hyderabad, Telangana, India',
+    address:
+      'EON Hyderabad by Navanaami, Nanakramguda, Financial District, Hyderabad, Telangana 500032, India',
     phone: '+91 40 5555 0195',
-    mapsLink:
-      'https://www.google.com/maps/place/EON+Hyderabad+by+Navanaami/@17.4073384,78.3537883,17z',
+    mapsLink: 'https://maps.app.goo.gl/iCUYvypt2cjB8CRw6',
     mapsEmbed:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.506048649082!2d78.35121339999999!3d17.4073384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9578f3bd8073%3A0x2786f63edeef6ca5!2sEON%20Hyderabad%20by%20Navanaami!5e1!3m2!1sen!2sin!4v1782935753081!5m2!1sen!2sin',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.506048649082!2d78.35121339999999!3d17.4073384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9578f3bd8073%3A0x2786f63edeef6ca5!2sEON%20Hyderabad%20by%20Navanaami!5e0!3m2!1sen!2sin!4v1782935753081!5m2!1sen!2sin',
   },
 ]
