@@ -38,7 +38,7 @@ function IndustryCard({ name, description, slug }: { name: string; description: 
           <ArrowUpRight className="w-4 h-4 text-white/30 group-hover:text-brand-red transition-colors shrink-0" />
         )}
       </div>
-      <p className="mt-2.5 text-base md:text-lg text-white/55 leading-relaxed">{description}</p>
+      <p className="mt-2.5 text-sm md:text-lg text-white/55 leading-relaxed">{description}</p>
     </div>
   )
 

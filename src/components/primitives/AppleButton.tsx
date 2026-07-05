@@ -19,7 +19,7 @@ export function AppleButton({
   type = 'button',
 }: AppleButtonProps) {
   const base =
-    'group inline-flex items-center justify-center gap-2 rounded-full font-medium text-sm px-5 py-3 transition-all active:scale-[0.98]'
+    'group inline-flex items-center justify-center gap-2 rounded-full font-medium text-base sm:text-sm px-5 py-3.5 sm:py-3 min-h-[48px] transition-all active:scale-[0.98]'
 
   const variants = {
     solid: 'bg-white text-black hover:bg-white/90',

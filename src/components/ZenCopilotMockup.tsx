@@ -76,8 +76,8 @@ export function ZenCopilotMockup() {
           </div>
         </div>
 
-        <div className="grid grid-cols-12 h-[520px]">
-          <div className="col-span-3 border-r border-white/10 bg-black/30 p-4 flex flex-col gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-12 md:h-[520px]">
+          <div className="hidden lg:flex lg:col-span-3 border-b lg:border-b-0 lg:border-r border-white/10 bg-black/30 p-4 flex-col gap-4">
             <button
               type="button"
               className="flex items-center justify-center gap-1.5 rounded-lg bg-white text-black text-xs font-semibold px-3 py-2"
@@ -113,7 +113,7 @@ export function ZenCopilotMockup() {
             </div>
           </div>
 
-          <div className="col-span-4 border-r border-white/10 flex flex-col">
+          <div className="hidden md:flex md:col-span-4 lg:col-span-4 border-b md:border-b-0 md:border-r border-white/10 flex-col min-h-[220px] md:min-h-0">
             <div className="flex items-center gap-2 px-3 py-2.5 border-b border-white/10 text-white/40">
               <Search className="w-3.5 h-3.5" />
               <span className="text-xs">Search conversations</span>
@@ -140,7 +140,7 @@ export function ZenCopilotMockup() {
             </div>
           </div>
 
-          <div className="col-span-5 flex flex-col">
+          <div className="col-span-1 md:col-span-8 lg:col-span-5 flex flex-col min-h-[360px] sm:min-h-[400px] md:min-h-0">
             <div className="flex items-center gap-1 px-3 py-2 border-b border-white/10">
               <div className="flex items-center gap-2 flex-1">
                 <div className="w-6 h-6 rounded-full bg-gradient-to-br from-brand to-brand-red flex items-center justify-center">

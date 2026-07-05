@@ -6,7 +6,7 @@ import { useReducedMotion } from '../hooks/useReducedMotion'
 import { ease } from '../lib/motion'
 
 const ghostButtonClass =
-  'inline-flex items-center gap-2 rounded-full border border-white/15 text-white text-sm px-5 py-3 hover:border-brand-red/60 hover:text-brand-red transition-colors'
+  'inline-flex items-center justify-center gap-2 rounded-full border border-white/15 text-white text-sm px-5 py-3 min-h-[44px] hover:border-brand-red/60 hover:text-brand-red transition-colors'
 
 const orbColors = [
   'bg-brand/20',
@@ -20,12 +20,12 @@ export function Hero() {
   const reduced = useReducedMotion()
 
   return (
-    <section className="relative z-10 pt-16 md:pt-28 pb-12 text-center flex flex-col items-center overflow-hidden">
-      <div className="absolute inset-0 pointer-events-none">
+    <section className="relative z-10 px-4 md:px-0 pt-12 sm:pt-16 md:pt-28 pb-12 text-center flex flex-col items-center overflow-hidden">
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {orbs.map((orb, i) => (
           <motion.div
             key={i}
-            className={`absolute w-72 h-72 rounded-full blur-3xl ${orbColors[i]}`}
+            className={`absolute w-48 h-48 sm:w-60 sm:h-60 md:w-72 md:h-72 rounded-full blur-3xl ${orbColors[i]}`}
             style={{
               x: reduced ? 0 : orb.x,
               y: reduced ? 0 : orb.y,
@@ -40,7 +40,7 @@ export function Hero() {
         initial={{ opacity: 0, y: 16, filter: 'blur(8px)' }}
         animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
         transition={{ delay: 0.15, duration: 0.85, ease: ease.smooth }}
-        className="relative text-4xl md:text-7xl font-semibold tracking-tight leading-[0.9]"
+        className="relative text-3xl sm:text-4xl md:text-7xl font-semibold tracking-tight leading-[0.95] sm:leading-[0.9]"
       >
         <span className="text-white">Your Future, Engineered</span>
         <br />

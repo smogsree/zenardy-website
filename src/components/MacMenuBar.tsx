@@ -29,7 +29,7 @@ export function MacMenuBar() {
         </div>
         <div className="flex items-center gap-2 text-white/70">
           <Search className="w-3.5 h-3.5" />
-          <span>Wed May 6 1:09 PM</span>
+          <span className="hidden sm:inline">Wed May 6 1:09 PM</span>
         </div>
       </div>
     </motion.div>

@@ -26,7 +26,7 @@ export function SolutionDetailPage({ solution }: { solution: SolutionDetail }) {
           transition={{ duration: 0.6 }}
         >
           <SectionEyebrow label="Zen IP Solutions" tag={solution.subtitle} />
-          <h1 className="mt-5 text-4xl md:text-6xl font-semibold tracking-tight leading-[1.02]">
+          <h1 className="mt-5 text-3xl sm:text-4xl md:text-6xl font-semibold tracking-tight leading-[1.05]">
             {solution.title}
           </h1>
         </motion.div>
@@ -119,7 +119,7 @@ export function SolutionDetailPage({ solution }: { solution: SolutionDetail }) {
           ))}
         </div>
 
-        <div className="liquid-glass rounded-2xl p-8 md:flex md:items-center md:justify-between gap-8">
+        <div className="liquid-glass rounded-2xl p-5 sm:p-8 md:flex md:items-center md:justify-between gap-8">
           <p className="text-lg font-medium text-white/80">{solution.ctaHeadline}</p>
           <Link to="/#contact" className="shrink-0 mt-6 md:mt-0">
             <AppleButton label="Contact Us" />

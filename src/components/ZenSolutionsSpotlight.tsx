@@ -18,7 +18,7 @@ function SolutionCardContent({
   slug?: string
 }) {
   return (
-    <div className="liquid-glass rounded-2xl p-6 w-64 shrink-0 md:w-auto group hover:border-brand-red/30 border border-transparent transition-colors h-full">
+    <div className="liquid-glass rounded-2xl p-5 sm:p-6 w-[min(85vw,16rem)] sm:w-64 shrink-0 snap-center md:w-auto group hover:border-brand-red/30 border border-transparent transition-colors h-full">
       <div className="relative w-12 h-12 mb-4">
         <svg viewBox="0 0 100 70" className="absolute inset-0 w-full h-full" aria-hidden>
           <defs>
@@ -67,7 +67,7 @@ export function ZenSolutionsSpotlight() {
         </h2>
       </FadeInUp>
 
-      <RevealGroup className="flex gap-4 overflow-x-auto scrollbar-hide md:grid md:grid-cols-5 md:overflow-visible">
+      <RevealGroup className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-2 -mx-1 px-1 md:grid md:grid-cols-5 md:overflow-visible md:pb-0 md:mx-0 md:px-0">
         {zenSolutions.map((solution, i) => {
           const slug = solutionSlugByLabel[solution.name]
           return (

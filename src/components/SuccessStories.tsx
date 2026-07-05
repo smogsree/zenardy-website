@@ -29,7 +29,7 @@ export function SuccessStories() {
                 <button
                   type="button"
                   onClick={() => setOpenIndex(isOpen ? null : i)}
-                  className="w-full flex items-start justify-between gap-4 p-6 text-left"
+                  className="w-full flex items-start justify-between gap-4 p-5 sm:p-6 min-h-[56px] text-left"
                 >
                   <div>
                     <h3 className="text-base font-semibold text-white pr-4">{story.title}</h3>

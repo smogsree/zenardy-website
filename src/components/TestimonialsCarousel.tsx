@@ -37,7 +37,7 @@ export function TestimonialsCarousel() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -40 }}
             transition={{ duration: 0.5 }}
-            className="liquid-glass rounded-2xl p-8"
+            className="liquid-glass rounded-2xl p-5 sm:p-8"
           >
             <Quote className="w-8 h-8 text-brand-red/60 mb-4" />
             <div className="flex gap-0.5 mb-4">
@@ -58,17 +58,21 @@ export function TestimonialsCarousel() {
         </AnimatePresence>
       </div>
 
-      <div className="flex justify-center gap-2 mt-6">
+      <div className="flex justify-center gap-1 mt-6">
         {homepageTestimonials.map((_, i) => (
           <button
             key={i}
             type="button"
             onClick={() => setIndex(i)}
-            className={`w-2 h-2 rounded-full transition-colors ${
-              i === index ? 'bg-brand-red' : 'bg-white/20'
-            }`}
+            className="p-3 rounded-full"
             aria-label={`Go to testimonial ${i + 1}`}
-          />
+          >
+            <span
+              className={`block w-2.5 h-2.5 rounded-full transition-colors ${
+                i === index ? 'bg-brand-red' : 'bg-white/20'
+              }`}
+            />
+          </button>
         ))}
       </div>
     </section>

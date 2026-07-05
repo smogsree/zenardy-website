@@ -25,7 +25,7 @@ function PersonCard({
 }) {
   return (
     <div
-      className={`liquid-glass rounded-2xl p-6 w-72 text-center transition-shadow duration-700 ${
+      className={`liquid-glass rounded-2xl p-5 sm:p-6 w-full max-w-[18rem] mx-auto sm:mx-0 sm:w-72 text-center transition-shadow duration-700 ${
         highlight ? 'shadow-[0_0_32px_rgba(230,57,70,0.15)]' : ''
       }`}
     >
@@ -126,9 +126,9 @@ export function LeadershipTeam() {
         </h2>
       </FadeInUp>
 
-      <div className="relative flex flex-row items-center justify-center gap-6 md:gap-10 min-h-[320px] mb-20">
+      <div className="relative flex flex-col sm:flex-row items-center justify-center gap-6 md:gap-10 min-h-0 sm:min-h-[320px] mb-16 sm:mb-20">
         <motion.div
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-px w-12 md:w-20 bg-gradient-to-r from-brand to-brand-red z-0 pointer-events-none"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-px w-12 md:w-20 bg-gradient-to-r from-brand to-brand-red z-0 pointer-events-none hidden sm:block"
           initial={{ scaleX: 0, opacity: 0 }}
           whileInView={{ scaleX: 1, opacity: 1 }}
           viewport={{ once: true, amount: 0.6 }}

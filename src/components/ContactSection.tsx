@@ -52,40 +52,40 @@ export function ContactSection() {
       </h2>
 
       <div className="grid md:grid-cols-2 gap-10">
-        <form onSubmit={handleSubmit} className="liquid-glass rounded-2xl p-8 space-y-4">
+        <form onSubmit={handleSubmit} className="liquid-glass rounded-2xl p-5 sm:p-8 space-y-4 min-w-0">
           {submitted ? (
             <p className="text-sm text-[#A4F4FD] py-8 text-center">
               Thank you — we&apos;ll be in touch within one business day.
             </p>
           ) : (
             <>
-              <div className="grid sm:grid-cols-2 gap-4">
+              <div className="grid sm:grid-cols-2 gap-4 min-w-0">
                 <input
                   required
                   placeholder="Full Name"
-                  className="rounded-lg bg-white/5 border border-white/10 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40"
+                  className="w-full min-w-0 rounded-lg bg-white/5 border border-white/10 px-4 py-3 text-base text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40"
                 />
                 <input
                   required
                   type="email"
                   placeholder="Email"
-                  className="rounded-lg bg-white/5 border border-white/10 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40"
+                  className="w-full min-w-0 rounded-lg bg-white/5 border border-white/10 px-4 py-3 text-base text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40"
                 />
               </div>
-              <div className="grid sm:grid-cols-2 gap-4">
+              <div className="grid sm:grid-cols-2 gap-4 min-w-0">
                 <input
                   placeholder="Phone"
-                  className="rounded-lg bg-white/5 border border-white/10 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40"
+                  className="w-full min-w-0 rounded-lg bg-white/5 border border-white/10 px-4 py-3 text-base text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40"
                 />
                 <input
                   placeholder="Company Name"
-                  className="rounded-lg bg-white/5 border border-white/10 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40"
+                  className="w-full min-w-0 rounded-lg bg-white/5 border border-white/10 px-4 py-3 text-base text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40"
                 />
               </div>
               <select
                 required
                 defaultValue=""
-                className="w-full rounded-lg bg-white/5 border border-white/10 px-4 py-2.5 text-sm text-white/70 focus:outline-none focus:ring-1 focus:ring-brand/40"
+                className="w-full min-w-0 rounded-lg bg-white/5 border border-white/10 px-4 py-3 text-base text-white/70 focus:outline-none focus:ring-1 focus:ring-brand/40"
               >
                 <option value="" disabled>
                   Reason for Contact
@@ -100,7 +100,7 @@ export function ContactSection() {
                 required
                 rows={4}
                 placeholder="Message"
-                className="w-full rounded-lg bg-white/5 border border-white/10 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40 resize-none"
+                className="w-full min-w-0 rounded-lg bg-white/5 border border-white/10 px-4 py-3 text-base text-white placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-brand/40 resize-none"
               />
               <MagneticButton />
             </>

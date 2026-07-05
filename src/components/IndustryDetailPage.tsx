@@ -23,7 +23,7 @@ export function IndustryDetailPage({ industry }: { industry: IndustryDetail }) {
           transition={{ duration: 0.6 }}
         >
           <SectionEyebrow label="Industries" tag={industry.subtitle} />
-          <h1 className="mt-5 text-4xl md:text-6xl font-semibold tracking-tight leading-[1.02]">
+          <h1 className="mt-5 text-3xl sm:text-4xl md:text-6xl font-semibold tracking-tight leading-[1.05]">
             {industry.title}
           </h1>
           <p className="mt-6 text-white/60 text-lg leading-relaxed max-w-3xl">

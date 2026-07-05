@@ -71,7 +71,7 @@ export function Navbar() {
   }, [mobileOpen])
 
   return (
-    <div className="relative z-50 w-full px-4 md:px-10 pt-6">
+    <div className="relative z-50 w-full px-4 md:px-10 pt-[max(0.75rem,env(safe-area-inset-top))] sm:pt-6 pb-2">
       <div
         className="nav-header-scrim absolute inset-x-0 top-0 h-28 md:h-32 -z-10 pointer-events-none"
         aria-hidden
@@ -97,7 +97,7 @@ export function Navbar() {
         className="flex items-center w-full"
       >
         <Link to="/" aria-label="Zenardy home" className="shrink-0" onClick={closeMobile}>
-          <LogoMark className="h-14 md:h-16 xl:h-[4.5rem] w-auto" />
+          <LogoMark className="h-10 sm:h-12 md:h-16 xl:h-[4.5rem] w-auto max-w-[min(52vw,220px)]" />
         </Link>
 
         <div className="hidden lg:flex flex-1 items-center justify-end gap-6 xl:gap-7 min-w-0 pl-20 xl:pl-28 2xl:pl-36">
@@ -202,7 +202,7 @@ export function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -12 }}
               transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-              className="fixed left-4 right-4 top-[5.5rem] z-[60] max-h-[calc(100vh-6.5rem)] overflow-y-auto rounded-2xl mega-menu-panel p-4 lg:hidden"
+              className="fixed left-3 right-3 sm:left-4 sm:right-4 top-[4.25rem] sm:top-[5rem] z-[60] max-h-[calc(100dvh-5.5rem)] overflow-y-auto overscroll-contain rounded-2xl mobile-nav-panel p-3 sm:p-4 lg:hidden"
             >
               <nav className="space-y-1">
                 {primaryNavLinks.map((link) => (
@@ -210,7 +210,7 @@ export function Navbar() {
                     key={link.label}
                     to={link.to}
                     onClick={closeMobile}
-                    className="block rounded-lg px-4 py-3 text-base font-medium text-white hover:bg-white/8 transition-colors"
+                    className="block rounded-lg px-4 py-3 min-h-[48px] flex items-center text-base font-medium text-white hover:bg-white/8 transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -225,7 +225,7 @@ export function Navbar() {
                         onClick={() =>
                           setMobileExpanded(expanded ? null : link.label)
                         }
-                        className="flex w-full items-center justify-between rounded-lg px-4 py-3 text-base font-medium text-white hover:bg-white/8 transition-colors"
+                        className="flex w-full items-center justify-between rounded-lg px-4 py-3 min-h-[48px] text-base font-medium text-white hover:bg-white/8 transition-colors"
                       >
                         {link.label}
                         <ChevronDown
